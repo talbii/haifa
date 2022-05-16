@@ -31,12 +31,6 @@
 *.out
 *.app
 
-# VSCode
-.vscode
-
-# Archives
-*.zip
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -197,3 +191,12 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# VSCode
+.vscode
+
+# Archives
+*.zip
+
+# Test Cases
+**/data/secret
