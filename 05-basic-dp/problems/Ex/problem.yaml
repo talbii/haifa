@@ -1,2 +1,3 @@
 name: לאס וגאס
 author: Alon Krymgand
+validator_flags: float_absolute_tolerance 1e-8
