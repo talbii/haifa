@@ -23,7 +23,7 @@ int main(int argc, char **argv) {
     }
 
     int q = 0;
-    while (q++ <= maxq) {
+    while (++q <= maxq) {
         char type;
         if (!(author_out >> type))
             wrong_answer("cant parse type of query %d\n", q);
