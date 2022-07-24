@@ -1,2 +1,2 @@
-factorial.zip: $(wildcard ./**)
-	zip -r factorial.zip .
+snacks.zip: $(wildcard ./**)
+	zip -r snacks.zip .
